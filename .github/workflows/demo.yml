@@ -31,6 +31,9 @@ jobs:
     # Yarn command
         cmd: install
         
+    - name: Install Packages
+      run: npm install
+        
     - name: creating build
       run: yarn build
      
